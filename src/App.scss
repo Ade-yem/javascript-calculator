@@ -1,0 +1,139 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .calculator {
+    width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .calculator-title {
+    background-color: #f2f2f2;
+    padding: 8px;
+    text-align: center;
+    font-size: 22px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .calculator-screen {
+    width: 100%;
+    height: 55px;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    text-align: right;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .result-screen {
+    width: 100%;
+    height: 35px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    text-align: right;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  button {
+    width: 100%;
+    height: 80px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  button.jumbo {
+    grid-column: span 2;
+  }
+  
+  button.operator {
+    background-color: #f2f2f2;
+  }
+  
+  button:active {
+    background-color: #ccc;
+  }
+  
+// body {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     height: 100vh;
+//     margin: 0;
+//     background-color: #f0f0f0;
+//   }
+  
+//   .calculator {
+//     width: 300px;
+//     background-color: #ffffff;
+//     border-radius: 10px;
+//     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+//     padding: 20px;
+//     text-align: right;
+//   }
+  
+//   .calculator h1 {
+//     font-size: 24px;
+//     margin-bottom: 20px;
+//   }
+  
+//   .calculator-screen {
+//     width: calc(100% - 20px);
+//     font-size: 36px;
+//     border: none;
+//     outline: none;
+//     text-align: right;
+//     margin-bottom: 10px;
+//   }
+  
+//   .result-screen {
+//     width: calc(100% - 20px);
+//     font-size: 28px;
+//     border: none;
+//     outline: none;
+//     text-align: right;
+//     color: #555555;
+//     margin-bottom: 20px;
+//   }
+  
+//   .buttons {
+//     display: grid;
+//     grid-template-columns: repeat(4, 1fr);
+//     grid-gap: 10px;
+//   }
+  
+//   .buttons button {
+//     font-size: 24px;
+//     padding: 10px;
+//     border: 1px solid #ccc;
+//     border-radius: 5px;
+//     background-color: #f0f0f0;
+//     cursor: pointer;
+//   }
+  
+//   .buttons .jumbo {
+//     grid-column: span 2;
+//   }
+  
+//   .buttons button:active {
+//     background-color: #ccc;
+//   }
+  
